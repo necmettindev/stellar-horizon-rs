@@ -2061,7 +2061,7 @@ dependencies = [
 
 [[package]]
 name = "stellar-horizon"
-version = "0.0.2"
+version = "0.0.3"
 dependencies = [
  "async-sse",
  "chrono",

@@ -55,7 +55,7 @@ pub enum Payment {
 pub struct OperationBase {
     #[serde(rename = "_links")]
     pub links: OperationLinks,
-    pub id: Option<String>,
+    pub id: String,
     pub paging_token: String,
     pub transaction_successful: bool,
     pub source_account: String,
